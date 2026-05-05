@@ -5,6 +5,9 @@ import logoImag from "../assets/logo.jpg";
 import CartContext from "../store/CartContext.jsx";
 import UserProgressContext from "../store/UserProgressContext.jsx";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBasketShopping } from '@fortawesome/free-solid-svg-icons';
+
 export default function Header() {
   const cartCtx = useContext(CartContext);
   const userProgressCtx = useContext(UserProgressContext);
@@ -23,7 +26,7 @@ export default function Header() {
         {/* <h1>food order</h1> */}
       </div>
       <nav>
-        <Button textOnly onClick={handleShowCart}>Cart ({totalCartItems})</Button>
+        <Button textOnly onClick={handleShowCart}><FontAwesomeIcon icon={faBasketShopping} /> ({totalCartItems})</Button>
       </nav>
     </header>
   );
