@@ -138,5 +138,12 @@
     "price": "8.99",
     "description": "Crispy falafels wrapped in a warm pita with lettuce, tomatoes, and a tahini sauce.",
     "image": "images/falafel-wrap.jpg"
-  }
+  },
+  {
+  "id": "m20",
+  "name": "Chicken Caesar Wrap",
+  "price": "9.49",
+  "description": "Grilled chicken wrapped in a soft tortilla with romaine lettuce, parmesan cheese, and creamy Caesar dressing.",
+  "image": "images/chicken-caesar-wrap.jpg"
+}
 ]
