@@ -140,10 +140,24 @@
     "image": "images/falafel-wrap.jpg"
   },
   {
-  "id": "m20",
-  "name": "Chicken Caesar Wrap",
-  "price": "9.49",
-  "description": "Grilled chicken wrapped in a soft tortilla with romaine lettuce, parmesan cheese, and creamy Caesar dressing.",
-  "image": "images/chicken-caesar-wrap.jpg"
-}
+    "id": "m21",
+    "name": "Chicken Caesar Wrap",
+    "price": "9.49",
+    "description": "Grilled chicken wrapped in a soft tortilla with romaine lettuce, parmesan cheese, and creamy Caesar dressing.",
+    "image": "images/chicken-caesar-wrap.jpg"
+  },
+  {
+    "id": "m22",
+    "name": "Greek Souvlaki",
+    "price": "11.99",
+    "description": "Juicy grilled pork skewers served with warm pita bread, tzatziki, fresh tomatoes, and onions.",
+    "image": "images/greek-souvlaki.jpg"
+  },
+  {
+    "id": "m23",
+    "name": "Tiramisu",
+    "price": "6.99",
+    "description": "A classic Italian dessert with layers of espresso-soaked ladyfingers and mascarpone cream, dusted with cocoa powder.",
+    "image": "images/tiramisu.jpg"
+  }
 ]
