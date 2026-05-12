@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80" width="300" height="80">
+
+  <!-- Icon: bowl with steam -->
+  <circle cx="40" cy="50" r="22" fill="#FF5722"/>
+  <ellipse cx="40" cy="50" rx="15" ry="8" fill="#fff" opacity="0.15"/>
+  <!-- Bowl highlight -->
+  <ellipse cx="34" cy="44" rx="5" ry="3" fill="#fff" opacity="0.25"/>
+
+  <!-- Steam lines -->
+  <path d="M32 22 Q29 17 32 12" stroke="#FF5722" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M40 20 Q37 15 40 10" stroke="#FF5722" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M48 22 Q45 17 48 12" stroke="#FF5722" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Fork shape overlay on bowl -->
+  <rect x="36" y="38" width="2" height="18" rx="1" fill="#fff" opacity="0.9"/>
+  <rect x="41" y="38" width="2" height="18" rx="1" fill="#fff" opacity="0.9"/>
+  <rect x="35" y="38" width="9" height="2" rx="1" fill="#fff" opacity="0.9"/>
+
+  <!-- Text: food -->
+  <text
+    x="78" y="48"
+    font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+    font-size="32"
+    font-weight="800"
+    fill="#1C1C1E"
+    letter-spacing="-0.5">food</text>
+
+  <!-- Text: order -->
+  <text
+    x="78" y="68"
+    font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+    font-size="18"
+    font-weight="400"
+    fill="#FF5722"
+    letter-spacing="4">order</text>
+
+</svg>
