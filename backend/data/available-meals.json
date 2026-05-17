@@ -159,5 +159,12 @@
     "price": "6.99",
     "description": "A classic Italian dessert with layers of espresso-soaked ladyfingers and mascarpone cream, dusted with cocoa powder.",
     "image": "images/tiramisu.jpg"
+  },
+  {
+    "id": "m24",
+    "name": "Pad Thai",
+    "price": "12.99",
+    "description": "Stir-fried rice noodles with shrimp, tofu, crunchy bean sprouts, and green onions, finished with a tangy tamarind sauce and crushed peanuts.",
+    "image": "images/pad-thai.jpg"
   }
 ]
