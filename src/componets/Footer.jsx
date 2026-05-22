@@ -1,34 +1,5 @@
-// export default function Footer() {
-//   return (
-//     <footer id="main-footer">
-//       <div id="footer-content">
-//         <div id="footer-brand">
-//           <h2>food order</h2>
-//           <p>Fresh meals delivered to your door.</p>
-//         </div>
-//         <div id="footer-links">
-//           <h3>Quick Links</h3>
-//           <ul>
-//             <li><a href="#">Menu</a></li>
-//             <li><a href="#">About Us</a></li>
-//             <li><a href="#">Contact</a></li>
-//           </ul>
-//         </div>
-//         <div id="footer-contact">
-//           <h3>Contact</h3>
-//           <p>📧 info@foodorder.com</p>
-//           <p>📞 +30 210 000 0000</p>
-//           <p>📍 Athens, Greece</p>
-//         </div>
-//       </div>
-//       <div id="footer-bottom">
-//         <p>&copy; {new Date().getFullYear()} Food Order. All rights reserved.</p>
-//       </div>
-//     </footer>
-//   );
-// }
 import { useState } from "react";
-// import "./index.css";
+
 
 const Footer = () => {
   const [email, setEmail] = useState("");
@@ -46,7 +17,7 @@ const Footer = () => {
       <div className="footer-grid">
         {/* Brand */}
         <div className="footer-brand">
-          <h2>🍴 ForkNow</h2>
+          <h2>🍴 Order Now</h2>
           <p>
             Your favourite food, ready in minutes.
             Delivery 24/7 across the city.
@@ -154,7 +125,7 @@ const Footer = () => {
       <hr className="footer-divider" />
 
       <div className="footer-bottom">
-        <p>© 2026 ForkNow. All rights reserved.</p>
+        <p>© 2026 Order Now. All rights reserved.</p>
         <div className="footer-bottom-links">
           {["Terms of Use", "Privacy", "Cookies", "Accessibility"].map((link) => (
             <a key={link} href="#">
