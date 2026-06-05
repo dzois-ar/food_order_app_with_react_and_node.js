@@ -9,8 +9,6 @@ body {
   font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background: linear-gradient(#29251c, #2c2306); */
-  /* background: linear-gradient(#f4f3f2, #f1e9d5); */
   background: linear-gradient( #10100f, #131210);
   color: #d9e2f1;
   min-height: 100vh;
@@ -37,8 +35,6 @@ body {
   height: 8rem;
   object-fit: contain;
   border-radius: 50%;
-  /* border: 2px solid #ffc404; */
-  /* border: 2px solid #b3ac8c; */
   border: 2px solid #2a2a27;
 }
 
@@ -53,10 +49,8 @@ h1 {
   font-weight: 700;
   font-size: 2rem;
   margin: 0;
-  /* color: #ffc404; */
   color: #b3ac8c;
   letter-spacing: 0.2rem;
-  /* text-transform: uppercase; */
 }
 
 #meals {
