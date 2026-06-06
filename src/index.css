@@ -121,7 +121,6 @@ h1 {
 .meal-item-price {
   display: inline-block;
   background-color: #312c1d;
-  /* color: #ffc404; */
   color: #eeece4;
   font-size: 0.9rem;
   font-weight: bold;
@@ -193,7 +192,6 @@ h1 {
   border-radius: 50%;
   border: none;
   background-color: #312c1d;
-  /* color: #ffc404; */
   color: #151208;
   display: flex;
   justify-content: center;
@@ -254,7 +252,6 @@ h1 {
   cursor: pointer;
   background-color: transparent;
   border: none;
-  /* color: #ffc404; */
   color: #b3ac8c;
 }
 
