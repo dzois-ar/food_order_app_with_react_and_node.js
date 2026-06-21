@@ -4,167 +4,179 @@
     "name": "Mac & Cheese",
     "price": "8.99",
     "description": "Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs. A classic comfort food.",
-    "image": "images/mac-and-cheese.jpg"
+    "image": "images/mac-and-cheese.jpg",
+    "category": "pasta",
+    "rating": 4.2
   },
   {
     "id": "m2",
     "name": "Margherita Pizza",
     "price": "12.99",
     "description": "A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.",
-    "image": "images/margherita-pizza.jpg"
+    "image": "images/margherita-pizza.jpg",
+    "category": "pizza",
+    "rating": 4.7
   },
   {
     "id": "m3",
     "name": "Caesar Salad",
     "price": "7.99",
     "description": "Romaine lettuce tossed in Caesar dressing, topped with croutons and parmesan shavings.",
-    "image": "images/caesar-salad.jpg"
+    "image": "images/caesar-salad.jpg",
+    "category": "salad",
+    "rating": 3.5
   },
   {
     "id": "m4",
     "name": "Spaghetti Carbonara",
     "price": "10.99",
     "description": "Al dente spaghetti with a creamy sauce made from egg yolk, pecorino cheese, pancetta, and pepper.",
-    "image": "images/spaghetti-carbonara.jpg"
+    "image": "images/spaghetti-carbonara.jpg",
+    "category": "pasta",
+    "rating": 4.8
   },
   {
     "id": "m5",
     "name": "Veggie Burger",
     "price": "9.99",
     "description": "A juicy veggie patty served on a whole grain bun with lettuce, tomato, and a tangy sauce.",
-    "image": "images/veggie-burger.jpg"
+    "image": "images/veggie-burger.jpg",
+    "category": "burger",
+    "rating": 3.1
   },
   {
     "id": "m6",
     "name": "Grilled Chicken Sandwich",
     "price": "10.99",
     "description": "Tender grilled chicken breast with avocado, bacon, lettuce, and honey mustard on a toasted bun.",
-    "image": "images/grilled-chicken-sandwich.jpg"
+    "image": "images/grilled-chicken-sandwich.jpg",
+    "category": "burger",
+    "rating": 4.4
   },
   {
     "id": "m7",
     "name": "Steak Frites",
     "price": "17.99",
     "description": "Succulent steak cooked to your preference, served with crispy golden fries and herb butter.",
-    "image": "images/steak-frites.jpg"
+    "image": "images/steak-frites.jpg",
+    "category": "grill",
+    "rating": 4.6
   },
   {
     "id": "m8",
     "name": "Sushi Roll Platter",
     "price": "15.99",
     "description": "An assortment of fresh sushi rolls including California, Spicy Tuna, and Eel Avocado.",
-    "image": "images/sushi-roll-platter.jpg"
+    "image": "images/sushi-roll-platter.jpg",
+    "category": "sushi",
+    "rating": 4.5
   },
   {
     "id": "m9",
     "name": "Chicken Curry",
     "price": "13.99",
     "description": "Tender pieces of chicken simmered in a rich and aromatic curry sauce, served with basmati rice.",
-    "image": "images/chicken-curry.jpg"
+    "image": "images/chicken-curry.jpg",
+    "category": "curry",
+    "rating": 3.8
   },
   {
     "id": "m10",
     "name": "Vegan Buddha Bowl",
     "price": "11.99",
     "description": "A hearty bowl filled with quinoa, roasted veggies, avocado, and a tahini dressing.",
-    "image": "images/vegan-buddha-bowl.jpg"
+    "image": "images/vegan-buddha-bowl.jpg",
+    "category": "salad",
+    "rating": 3.2
   },
   {
     "id": "m11",
     "name": "Seafood Paella",
     "price": "19.99",
     "description": "A Spanish delicacy filled with saffron-infused rice, shrimp, mussels, and chorizo.",
-    "image": "images/seafood-paella.jpg"
+    "image": "images/seafood-paella.jpg",
+    "category": "seafood",
+    "rating": 4.9
   },
   {
     "id": "m12",
     "name": "Pancake Stack",
     "price": "8.99",
     "description": "Fluffy pancakes stacked high, drizzled with maple syrup and topped with fresh berries.",
-    "image": "images/pancake-stack.jpg"
+    "image": "images/pancake-stack.jpg",
+    "category": "breakfast",
+    "rating": 4.3
   },
   {
     "id": "m13",
     "name": "Miso Ramen",
     "price": "12.99",
     "description": "A warming bowl of ramen with miso broth, tender pork, soft-boiled egg, and green onions.",
-    "image": "images/miso-ramen.jpg"
+    "image": "images/miso-ramen.jpg",
+    "category": "soup",
+    "rating": 4.6
   },
   {
     "id": "m14",
     "name": "Beef Tacos",
     "price": "9.99",
     "description": "Three soft tortillas filled with seasoned beef, fresh salsa, cheese, and sour cream.",
-    "image": "images/beef-tacos.jpg"
+    "image": "images/beef-tacos.jpg",
+    "category": "tacos",
+    "rating": 3.4
   },
   {
     "id": "m15",
     "name": "Chocolate Brownie",
     "price": "5.99",
     "description": "A rich and fudgy brownie, topped with a scoop of vanilla ice cream and chocolate sauce.",
-    "image": "images/chocolate-brownie.jpg"
+    "image": "images/chocolate-brownie.jpg",
+    "category": "dessert",
+    "rating": 4.7
   },
   {
     "id": "m16",
     "name": "Lobster Bisque",
     "price": "14.99",
     "description": "A creamy soup made from lobster stock, aromatic vegetables, and a touch of brandy.",
-    "image": "images/lobster-bisque.jpg"
+    "image": "images/lobster-bisque.jpg",
+    "category": "seafood",
+    "rating": 3.6
   },
   {
     "id": "m17",
     "name": "Mushroom Risotto",
     "price": "13.99",
     "description": "Creamy Arborio rice cooked with a medley of wild mushrooms and finished with parmesan.",
-    "image": "images/mushroom-risotto.jpg"
+    "image": "images/mushroom-risotto.jpg",
+    "category": "pasta",
+    "rating": 4.4
   },
   {
     "id": "m18",
     "name": "Eggplant Parmesan",
     "price": "11.99",
     "description": "Layers of breaded eggplant, marinara sauce, and melted mozzarella and parmesan cheeses.",
-    "image": "images/eggplant-parmesan.jpg"
+    "image": "images/eggplant-parmesan.jpg",
+    "category": "pizza",
+    "rating": 3.1
   },
   {
     "id": "m19",
     "name": "Lemon Cheesecake",
     "price": "6.99",
     "description": "A creamy cheesecake with a tangy lemon flavor, served on a crumbly biscuit base.",
-    "image": "images/lemon-cheesecake.jpg"
+    "image": "images/lemon-cheesecake.jpg",
+    "category": "dessert",
+    "rating": 4.6
   },
   {
     "id": "m20",
     "name": "Falafel Wrap",
     "price": "8.99",
     "description": "Crispy falafels wrapped in a warm pita with lettuce, tomatoes, and a tahini sauce.",
-    "image": "images/falafel-wrap.jpg"
-  },
-  {
-    "id": "m21",
-    "name": "Chicken Caesar Wrap",
-    "price": "9.49",
-    "description": "Grilled chicken wrapped in a soft tortilla with romaine lettuce, parmesan cheese, and creamy Caesar dressing.",
-    "image": "images/chicken-caesar-wrap.jpg"
-  },
-  {
-    "id": "m22",
-    "name": "Greek Souvlaki",
-    "price": "11.99",
-    "description": "Juicy grilled pork skewers served with warm pita bread, tzatziki, fresh tomatoes, and onions.",
-    "image": "images/greek-souvlaki.jpg"
-  },
-  {
-    "id": "m23",
-    "name": "Tiramisu",
-    "price": "6.99",
-    "description": "A classic Italian dessert with layers of espresso-soaked ladyfingers and mascarpone cream, dusted with cocoa powder.",
-    "image": "images/tiramisu.jpg"
-  },
-  {
-    "id": "m24",
-    "name": "Pad Thai",
-    "price": "12.99",
-    "description": "Stir-fried rice noodles with shrimp, tofu, crunchy bean sprouts, and green onions, finished with a tangy tamarind sauce and crushed peanuts.",
-    "image": "images/pad-thai.jpg"
+    "image": "images/falafel-wrap.jpg",
+    "category": "wrap",
+    "rating": 3.3
   }
 ]
