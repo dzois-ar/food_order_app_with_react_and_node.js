@@ -295,3 +295,315 @@ h1 {
     transform: translateY(0);
   }
 }
+
+/* #main-footer {
+  margin-top: 4rem;
+  background-color: #0d0d0c;
+  border-top: 1px solid #2a2a27;
+  padding: 3rem 10% 1rem;
+}
+
+#footer-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+#footer-brand h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  color: #ffc404;
+  margin: 0 0 0.5rem 0;
+  letter-spacing: 0.2rem;
+}
+
+#footer-brand p {
+  color: #b3ac8c;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+#footer-links h3,
+#footer-contact h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  color: #ffc404;
+  margin: 0 0 0.75rem 0;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+#footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+#footer-links ul li a {
+  color: #b3ac8c;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+
+#footer-links ul li a:hover {
+  color: #ffc404;
+}
+
+#footer-contact p {
+  color: #b3ac8c;
+  margin: 0 0 0.4rem 0;
+  font-size: 0.9rem;
+}
+
+#footer-bottom {
+  border-top: 1px solid #2a2a27;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+#footer-bottom p {
+  color: #46443c;
+  font-size: 0.8rem;
+  margin: 0;
+} */
+
+/* Footer */
+
+.footer-wrap {
+  background: #0d0d0c;
+  color: #d9e2f1;
+  font-family: 'Raleway', sans-serif;
+  padding: 3rem 2rem 1.5rem;
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer-wrap::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #ffab04, #ffc404, #ffab04);
+}
+
+/* Brand */
+.footer-brand h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #ffc404;
+  margin: 0 0 6px;
+  letter-spacing: 0.1rem;
+}
+.footer-brand > p {
+  font-size: 13px;
+  color: #b3ac8c;
+  margin: 0 0 1.5rem;
+  max-width: 220px;
+  line-height: 1.5;
+}
+
+/* Social */
+.social-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+.social-btn {
+  width: 36px; height: 36px;
+  border-radius: 8px;
+  border: 0.5px solid #2a2a27;
+  background: #1d1a16;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #b3ac8c;
+  font-size: 17px;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s;
+  text-decoration: none;
+}
+.social-btn:hover { border-color: #ffc404; color: #ffc404; }
+
+/* App badges */
+.app-badges {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.app-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #1d1a16;
+  border: 0.5px solid #2a2a27;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-size: 11px;
+  color: #b3ac8c;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+.app-badge:hover { border-color: #ffc404; color: #d9e2f1; }
+.app-badge .ti { font-size: 15px; color: #ffc404; }
+
+/* Grid */
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 1.3fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Columns */
+.footer-col h4 {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #ffc404;
+  margin: 0 0 1rem;
+  font-family: 'Lato', sans-serif;
+}
+.footer-col ul {
+  list-style: none;
+  margin: 0; padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.footer-col ul li a {
+  font-size: 13.5px;
+  color: #b3ac8c;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  transition: color 0.15s;
+}
+.footer-col ul li a:hover { color: #d9e2f1; }
+.footer-col ul li a .ti { font-size: 14px; color: #ffab04; }
+
+/* Newsletter */
+.newsletter-box {
+  background: #1d1a16;
+  border: 0.5px solid #2a2a27;
+  border-radius: 12px;
+  padding: 1.1rem 1.2rem;
+}
+.newsletter-box p {
+  font-size: 12.5px;
+  color: #b3ac8c;
+  margin: 0 0 10px;
+  line-height: 1.5;
+}
+.nl-input-row {
+  display: flex;
+  gap: 6px;
+}
+.nl-input-row input {
+  flex: 1;
+  background: #131210;
+  border: 0.5px solid #2a2a27;
+  border-radius: 8px;
+  padding: 7px 10px;
+  font-size: 12px;
+  color: #d9e2f1;
+  outline: none;
+  font-family: 'Raleway', sans-serif;
+  min-width: 0;
+}
+.nl-input-row input::placeholder { color: #46443c; }
+.nl-input-row input:focus { border-color: #ffc404; }
+.nl-input-row button {
+  background: #ffc404;
+  border: 1px solid #ffc404;
+  border-radius: 8px;
+  padding: 7px 12px;
+  color: #1f1a09;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+.nl-input-row button:hover { background: #ffab04; border-color: #ffab04; }
+
+/* Payments */
+.payments-section { margin-top: 14px; }
+.payments-section h4 {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #ffc404;
+  margin: 0 0 8px;
+  font-family: 'Lato', sans-serif;
+}
+.payment-row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.pay-tag {
+  font-size: 11px;
+  color: #b3ac8c;
+  background: #1d1a16;
+  border: 0.5px solid #2a2a27;
+  border-radius: 5px;
+  padding: 3px 8px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.pay-tag .ti { font-size: 13px; color: #ffc404; }
+
+/* Bottom bar */
+.footer-divider {
+  border: none;
+  border-top: 0.5px solid #2a2a27;
+  margin: 0 0 1rem;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.footer-bottom p {
+  font-size: 12px;
+  color: #46443c;
+  margin: 0;
+}
+.footer-bottom-links {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.footer-bottom-links a {
+  font-size: 12px;
+  color: #46443c;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+.footer-bottom-links a:hover { color: #ffc404; }
