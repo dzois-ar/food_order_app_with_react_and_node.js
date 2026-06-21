@@ -24,7 +24,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3rem 10%;
+  padding: 1rem 10%;
 }
 
 #main-header::after {
@@ -50,10 +50,10 @@ body {
   object-fit: contain;
   border-radius: 50%;
   border: 2px solid #2a2a27;
+  margin-left: -8rem;
 }
 
 #main-header button {
-  /* font-size: 1.5rem; */
   font-size: 2rem;
   font-family: 'Lato', sans-serif;
 }
@@ -258,7 +258,6 @@ h1 {
 .text-button:hover,
 .text-button:active {
   color: #ffab04;
-  /* color: #483402; */
 }
 
 .text-button {
