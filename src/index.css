@@ -75,6 +75,53 @@ body {
   padding: 0.4rem 0.8rem;
 }
 
+@media (max-width: 768px) {
+  #main-header {
+    padding: 0.75rem 5%;
+    gap: 1rem;
+  }
+
+  #main-header #title img {
+    width: 5rem;
+    height: 5rem;
+    margin-left: 0;
+  }
+
+  #main-header button {
+    font-size: 1.5rem;
+  }
+
+  #main-header nav {
+    gap: 0.75rem;
+  }
+
+  #category-filter {
+    font-size: 0.85rem;
+    padding: 0.3rem 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #main-header {
+    padding: 0.5rem 4%;
+  }
+
+  #main-header #title img {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: 0;
+  }
+
+  #main-header button {
+    font-size: 1.2rem;
+  }
+
+  #category-filter {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.4rem;
+  }
+}
+
 h1 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
